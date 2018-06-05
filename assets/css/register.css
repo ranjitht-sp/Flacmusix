@@ -1,0 +1,110 @@
+html,body{
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.background{
+  background-image: url(../images/bgg.jpg);
+  opacity: 0.8;
+  background-position: center;
+  background-size: cover;
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.loginContainer *{
+  color: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+  line-height: 1em;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+.loginContainer{
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  max-width: 1024px;
+}
+
+
+#inputContainer{
+  width: 400px;
+  padding: 45px;
+  float: left;
+  border-right: 1px solid black;
+}
+
+#inputContainer h2{
+  text-align: center;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+#inputContainer input[type="text"],
+#inputContainer input[type="email"],
+#inputContainer input[type="password"]{
+  display: block;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  height: 30px;
+}
+
+
+
+#inputContainer button:hover{
+  cursor: pointer;
+
+}
+
+.hasAccountText{
+  text-align: center;
+}
+
+.hasAccountText span{
+  cursor: pointer;
+}
+
+#registerForm,
+#loginForm{
+  display: none;
+}
+.loginText{
+  padding: 45px;
+  margin-left: 45px;
+  display: table-cell;
+}
+
+.loginText h1{
+  color: #ffc400;
+  font-size: 60px;
+  font-weight: bold;
+}
+.loginText h2{
+  margin: 35px 0;
+  font-size: 25px;
+  font-weight: bold;
+}
+.loginText ul{
+  padding: 0;
+}
+.loginText li{
+  font-size: 23px;
+  list-style-type: none;
+  padding: 4px 35px;
+  background: url(../images/icons/check.png) no-repeat;
+}
+
+.errorMessage{
+  color: #ffc400;
+    font-size: 12px;
+    display: block;
+}
+
+#inputContainer label{
+  display: block;
+  margin-top: 15px;
+}
